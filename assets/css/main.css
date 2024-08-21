@@ -155,7 +155,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 32px;
+  max-height: 64px;
   margin-right: 8px;
 }
 
@@ -638,7 +638,7 @@ section,
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  background: url(../img/hero-bg.jpg) top center no-repeat;
+  background: url(../img/iam-bg.jpg) top center no-repeat;
   background-size: cover;
   width: 100%;
   min-height: 90vh;
