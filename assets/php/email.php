@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Specify the recipient (your email)
-    $recipient = "your-email@example.com";
+    $recipient = "petrova.olena.anatoliivna@gmail.com";
 
     // Email headers
     $email_headers = "From: $name <$email>";
