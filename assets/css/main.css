@@ -93,6 +93,7 @@ h4 {
 
 .index-page {
     font-family: "Oswald", sans-serif;
+    font-size: 18px;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
@@ -178,7 +179,7 @@ h4 {
 }
 
 .header .logo h1 {
-  font-size: 30px;
+  font-size: 40px;
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
@@ -213,7 +214,7 @@ h4 {
     .navmenu a:focus {
         color: var(--nav-color);
         padding: 18px 15px;
-        font-size: 16px;
+        font-size: 22px;
         font-family: "Lobster", sans-serif;
         font-style: normal;
         font-weight: 400;
@@ -226,7 +227,7 @@ h4 {
 
   .navmenu a i,
   .navmenu a:focus i {
-    font-size: 12px;
+    font-size: 18px;
     line-height: 0;
     margin-left: 5px;
     transition: 0.3s;
@@ -264,13 +265,13 @@ h4 {
 
   .navmenu .dropdown ul a {
     padding: 10px 20px;
-    font-size: 15px;
+    font-size: 18px;
     text-transform: none;
     color: var(--nav-dropdown-color);
   }
 
   .navmenu .dropdown ul a i {
-    font-size: 12px;
+    font-size: 18px;
   }
 
   .navmenu .dropdown ul a:hover,
@@ -335,7 +336,7 @@ h4 {
     color: var(--nav-dropdown-color);
     padding: 10px 20px;
     font-family: var(--nav-font);
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -346,7 +347,7 @@ h4 {
 
   .navmenu a i,
   .navmenu a:focus i {
-    font-size: 12px;
+    font-size: 18px;
     line-height: 0;
     margin-left: 5px;
     width: 30px;
@@ -432,7 +433,7 @@ h4 {
 .footer {
   color: var(--default-color);
   background-color: var(--background-color);
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   padding: 30px 0;
   position: relative;
@@ -447,7 +448,7 @@ h4 {
 }
 
 .footer p {
-  font-size: 15;
+  font-size: 16px;
   font-style: italic;
   padding: 0;
   margin: 0 0 30px 0;
@@ -484,7 +485,7 @@ h4 {
 }
 
 .footer .credits {
-  font-size: 13px;
+  font-size: 14px;
   padding-top: 5px;
 }
 
@@ -744,7 +745,7 @@ section,
 --------------------------------------------------------------*/
 .about .content h2 {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .about .content ul {
@@ -763,7 +764,7 @@ section,
 }
 
 .about .content ul i {
-  font-size: 16px;
+  font-size: 20px;
   margin-right: 5px;
   color: var(--accent-color);
   line-height: 0;
@@ -787,6 +788,7 @@ section,
   display: block;
   font-weight: 600;
   font-family: var(--heading-font);
+  font-size: 16px;
 }
 
 .skills .progress .skill .val {
@@ -811,7 +813,7 @@ section,
 --------------------------------------------------------------*/
 .resume .resume-title {
   color: var(--heading-color);
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -826,7 +828,7 @@ section,
 
 .resume .resume-item h4 {
   line-height: 18px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
@@ -834,7 +836,7 @@ section,
 }
 
 .resume .resume-item h5 {
-  font-size: 16px;
+  font-size: 18px;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -943,7 +945,7 @@ section,
   display: inline-block;
   padding: 8px 20px 10px 20px;
   margin: 0 2px;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 1;
   margin-bottom: 5px;
@@ -967,7 +969,7 @@ section,
 
 @media (max-width: 575px) {
   .portfolio .portfolio-filters li {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0 0 10px 0;
   }
 }
@@ -990,14 +992,14 @@ section,
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   padding-right: 50px;
 }
 
 .portfolio .portfolio-item .portfolio-info p {
   color: color-mix(in srgb, var(--default-color), transparent 30%);
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 0;
   padding-right: 50px;
 }
@@ -1006,7 +1008,7 @@ section,
 .portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
   right: 50px;
-  font-size: 24px;
+  font-size: 26px;
   top: calc(50% - 14px);
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   transition: 0.3s;
@@ -1020,7 +1022,7 @@ section,
 
 .portfolio .portfolio-item .portfolio-info .details-link {
   right: 14px;
-  font-size: 28px;
+  font-size: 30px;
 }
 
 .portfolio .portfolio-item:hover .portfolio-info {
@@ -1142,7 +1144,7 @@ section,
 
 .contact .info-item h3 {
   padding: 0;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
   margin-bottom: 5px;
 }
@@ -1150,7 +1152,7 @@ section,
 .contact .info-item p {
   padding: 0;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .contact .info-item:hover i {
@@ -1165,7 +1167,7 @@ section,
 .contact .php-email-form input[type=text],
 .contact .php-email-form input[type=email],
 .contact .php-email-form textarea {
-  font-size: 14px;
+  font-size: 18px;
   padding: 10px 15px;
   box-shadow: none;
   border-radius: 0;
@@ -1242,7 +1244,7 @@ section,
 }
 
 .portfolio-details .portfolio-info h3 {
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -1252,7 +1254,7 @@ section,
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .portfolio-details .portfolio-info ul li+li {
@@ -1264,14 +1266,15 @@ section,
 }
 
 .portfolio-details .portfolio-description h2 {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 .portfolio-details .portfolio-description p {
   padding: 0;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: #060606;
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------
