@@ -13,7 +13,7 @@
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Playfair Display",  sans-serif;
+  --heading-font: "Lobster",  sans-serif;
   --nav-font: "Lobster",  sans-serif;
 }
 
@@ -80,11 +80,15 @@ a:hover {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
+}
+
+h4 {
+    color: var(--heading-color);
+    font-family: "Oswald", sans-serif;
 }
 
 .index-page {
@@ -1200,7 +1204,7 @@ section,
 --------------------------------------------------------------*/
 .sitename {
     justify-content: center;
-    font-family: "Oswald", sans-serif;
+    font-family: "Lobster", sans-serif;
     
 }
 
