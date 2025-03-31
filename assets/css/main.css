@@ -979,6 +979,11 @@ section,
   overflow: hidden;
 }
 
+.img-portfolio {
+  height: 400px;
+  width: 415px;
+}
+
 .portfolio .portfolio-item .portfolio-info {
   opacity: 0;
   position: absolute;
